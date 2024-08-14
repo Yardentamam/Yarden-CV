@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yarden Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        h2 {
+            background-color: gainsboro;
+            color: darkslategray;
+            padding: 10px;
+        }
+        p {
+            padding-right: 20;
+        }
+
+        .icon-wrapper {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 10px;
+            padding: 10px;
+        }
+
+        .icon-container {
+            text-align: center;
+            margin: 10px;
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .icon-container i {
+            font-size: 20px;
+            color: grey;
+            transition: color 0.3s ease;
+        }
+
+        .icon-container:hover i {
+            color: steelblue;
+        }
+
+        .icon-text {
+            margin-top: 8px;
+            font-size: 16px;
+            color: black;
+        }
+
+        .timeline-entry {
+            display: flex;
+            margin-bottom: 20px;
+            align-items: flex-start; /* Align items to the top */
+        }
+
+        .Year {
+            width: 150px;
+            text-align: left;
+            padding-right: 20px;
+        }
+
+        .content {
+            flex-grow: 1;
+            text-align: left;
+            line-height: 1.5;
+        }
+
+        .education .timeline-entry {
+            display: flex;
+        }
+
+        .content-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .raw-content ul {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+
+        .footer p {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 60px;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Yarden Tamam</h1>
+
+    <div class="icon-wrapper">
+        <div class="icon-container">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tamamyarden@gmail.com&su=Dear%20Yarden&body=Hello%20Yarden," target="_blank">
+                <i class="fa fa-envelope"></i>
+            </a>
+            <div class="icon-text">tamamyarden@gmail.com</div>
+        </div>
+
+        <div class="icon-container">
+            <i class="fa fa-phone"></i>
+            <div class="icon-text">054-2019673</div>
+        </div>
+
+        <div class="icon-container">
+            <a href="https://www.google.com/maps?q=Rosh+HaAyin,+Israel" target="_blank">
+                <i class="fa fa-map-marker"></i>
+            </a>
+            <div class="icon-text">Rosh HaAyin</div>
+        </div>
+
+        <div class="icon-container">
+            <i class="fa fa-shield"></i>
+            <div class="icon-text">Golani Warrior</div>
+        </div>
+
+        <div class="icon-container">
+            <a href="https://www.linkedin.com/in/yarden-tamam/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <div class="icon-text">LinkedIn</div>
+        </div>
+
+        <div class="icon-container">
+            <a href="https://github.com/Yardentamam" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <div class="icon-text">GitHub</div>
+        </div>
+    </div>
+
+    <h2>Professional Experience</h2>
+
+    <div class="timeline-entry">
+        <div class="Year">2022-2024</div>
+        <div class="content">
+            <div class="content-title">Cyber Security Analyst, Check Point Software Technologies</div>
+            <div class="raw-content">
+                <ul>
+                    <li>Network vulnerability research and protection development for IPS.</li>
+                    <li>Conducted in-depth analysis of SQL queries and source code to identify and mitigate vulnerabilities in software systems.</li>
+                    <li>Demonstrated proficiency in log analysis, effectively tracing and identifying potential security threats within multiple different systems.</li>
+                    <li>Executed attack simulations to assess and enhance the security posture.</li>
+                    <li>Applied expertise in Linux, Windows, and virtualized environments using tools such as Wireshark.</li>
+                    <li>Collaborated with cross-functional teams to implement and maintain security measures.</li>
+                    <li>Developed automation tools using Python to optimize and streamline security processes.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <h2>Education</h2>
+
+    <div class="timeline-entry">
+        <div class="Year">2020-2023</div>
+        <div class="content">
+            <div class="content-title">B.Sc. Computer Science, The Open University</div>
+            <div>Completed a comprehensive three-year program with a focus on machine learning, artificial intelligence, and networks.</div>
+        </div>
+    </div>
+
+    <div class="timeline-entry">
+        <div class="Year">2024-2026</div>
+        <div class="content">
+            <div class="content-title">M.Sc. in Computer Science, The Open University</div>
+            <div>Advanced study with a focus on deep learning, data science, and cloud computing technologies.</div>
+        </div>
+    </div>
+
+    <h2>Projects</h2>
+
+    <div class="timeline-entry">
+        <div class="content">
+            <div class="content-title">Compiler for Assembly Language(C Scripting Language).</div>
+            <div class="content">Developed a robust compiler to translate assembly language code into executable binary, employing the C scripting language.
+                Addressing Methods Expertise: Successfully implemented support for various assembly commands, each utilizing different addressing methods, showcasing a deep understanding of diverse addressing techniques.</div>
+        </div>
+    </div>
+
+    <div class="timeline-entry">
+        <div class="content">
+            <div class="content-title">Data Science Project: GDP Prediction for a given Country</div>
+            <div class="content">Employed Python and machine learning
+                methods to predict a country's GDP by analyzing various features, utilizing both NLP and deep learning models.
+                End-to-End Data Science Cycle
+                : Executed the complete data science cycle, from data collection and preprocessing to model training, validation, and deployment, ensuring a holistic and effective approach.</div>
+        </div>
+    </div>
+
+    <h2>Extracurricular</h2>
+    <p>I humbly facilitate first-year students' journeys in comprehending foundational mathematical concepts and computer programming through interactive and inclusive teaching methods</p>
+
+    <h2>Tools and Skills</h2>
+
+    <p><b>Workspaces:</b> VScode, IntelliJ IDEA , Git, PyCharm.</p>
+    <p><b>programming languages:</b>C , Java, Python, javscript, C++.</p>
+    <p><b>Tools:</b> Docker, Kubernetes, MySQL, Kibana, mongoDB, Kafka</p>
+    
+    <footer class="footer">
+        <p>© Yarden Tamam</p>
+    </footer>
+
+</body>
+</html>
